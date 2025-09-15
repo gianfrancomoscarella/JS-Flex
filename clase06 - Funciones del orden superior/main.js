@@ -8,7 +8,7 @@ const datosBusqueda = {
   year: year,
   minimo: minimo,
   maximo: maximo,
-  puertas: 2,
+  puertas: "",
 };
 
 function mostrarAutos(autos) {

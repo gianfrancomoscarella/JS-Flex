@@ -194,23 +194,23 @@ llenarSelects();
 mostrarAutos(autos); // Mostrar todos los autos al inicio
 
 
-selectMarca.addEventListener("change", (e) => {
-  datosBusqueda.marca = e.target.value;
+selectMarca.addEventListener("change", (evento) => {
+  datosBusqueda.marca = evento.target.value;
   filtrarAutos(); // Cada vez que cambia un filtro, filtramos
 });
 
-selectYear.addEventListener("change", (e) => {
-  datosBusqueda.year = parseInt(e.target.value); // Convertir a número
+selectYear.addEventListener("change", (evento) => {
+  datosBusqueda.year = parseInt(evento.target.value); // Convertir a número
   filtrarAutos();
 });
 
-inputPrecioMin.addEventListener("input", (e) => {
-  datosBusqueda.precioMin = parseFloat(e.target.value); // Convertir a número
+inputPrecioMin.addEventListener("input", (evento) => {
+  datosBusqueda.precioMin = parseFloat(evento.target.value); // Convertir a número
   filtrarAutos();
 });
 
-inputPrecioMax.addEventListener("input", (e) => {
-  datosBusqueda.precioMax = parseFloat(e.target.value); // Convertir a número
+inputPrecioMax.addEventListener("input", (evento) => {
+  datosBusqueda.precioMax = parseFloat(evento.target.value); // Convertir a número
   filtrarAutos();
 });
 
