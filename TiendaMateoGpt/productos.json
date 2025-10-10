@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Remera a eleccion",
+    "precio": 29999,
+    "image": "https://placehold.co/600x400/png"
+  },
+  {
+    "id": 2,
+    "name": "Campera",
+    "precio": 39999,
+    "image": "https://placehold.co/600x400/png"
+  },
+  {
+    "id": 3,
+    "name": "Remera",
+    "precio": 25000,
+    "image": "https://placehold.co/600x400/png"
+  },
+  {
+    "id": 4,
+    "name": "Buzo",
+    "precio": 50000,
+    "image": "https://placehold.co/600x400/png"
+  },
+  {
+    "id": 5,
+    "name": "Campera a eleccion",
+    "precio": 400000,
+    "image": "https://placehold.co/600x400/png"
+  }
+]
